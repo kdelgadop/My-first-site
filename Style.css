@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0.2;
+  font-family: "Girassol", cursive, serif;
+  font-size: 17px;
+  color: rgb(239, 252, 246);
+  line-height: 1.6;
+}
+
+body p {
+  font-family: "Roboto", sans-serif;
+}
+
+#showcase {
+  background-image: url("img/picturedarker.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0, 20px;
+}
+
+#showcase h1 {
+  font-size: 50px;
+  line-height: 1.2;
+}
+
+#showcase p {
+  font-size: 20px;
+  padding: 10px;
+}
+
+#showcase .button {
+  font-family: "Girassol", cursive, serif;
+  font-size: 18px;
+  color: rgb(239, 252, 246);
+  border: 2px solid;
+  border-color: rgb(239, 252, 246);
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* a {
+    text-decoration: none;
+} */
+
+#showcase a:hover {
+  background-color: rgb(96, 62, 45);
+  border-color: rgb(239, 252, 246);
+}
+
+a:visited {
+  color: rgb(239, 252, 246);
+}
+
+#nav {
+  background-color: rgb(96, 62, 45);
+  color: rgb(239, 252, 246);
+  position: sticky;
+  top: 0;
+  z-index: 11;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  border-bottom: #2e5061 5px solid;
+}
+
+.option {
+  border: 1px solid transparent;
+  padding: 0 10px;
+}
+
+a {
+  text-decoration: none;
+  border: 1px solid transparent;
+}
+
+#nav .option:hover {
+  border: 1px solid transparent;
+  background-color: #2e5061;
+  border-radius: 5px;
+}
+
+.option {
+  padding-inline: 40px;
+}
+
+#nav li {
+  display: inline-flex;
+}
+
+#section-a {
+  padding: 20px;
+  /* background-color: rgb(173, 131, 91); */
+  background-color: #2e5061;
+  color: rgb(239, 252, 246);
+  text-align: center;
+}
+
+#section-b {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: rgb(239, 252, 246);
+  background-color: #f4f4f4;
+  background-image: url("img/Dice.jpg");
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#section-c {
+  display: flex;
+}
+
+#combatpng {
+  max-width: 445px;
+  min-width: auto;
+}
+
+#section-c div {
+  padding: 20px;
+}
+
+#section-c .box-1,
+#section-c .box-3 {
+  background-color: rgb(96, 62, 45);
+  color: rgb(239, 252, 246);
+  padding: 100px, 0;
+  flex: 1;
+}
+
+#section-c .box-2 {
+  background-color: #f9f9f9;
+  color: rgb(96, 62, 45);
+  flex: 1;
+}
+
+#mappng,
+#speech,
+#combatpng {
+  max-width: 100%;
+  max-width: 100%;
+}
+
+.sticky1,
+.sticky2,
+.sticky3 {
+  position: sticky;
+  border: rgb(239, 252, 246) solid 2px;
+  background-color: #2e5061;
+  height: 500px;
+  top: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  text-align: center;
+  padding: 0, 20px;
+  z-index: 10;
+}
+
+.sticky1 {
+  background-image: url("img/Wizardpng.png");
+  height: 75vh;
+  background-size: cover;
+  background-position: left;
+  display: flex;
+  -webkit-filter: blur(1);
+  filter: blur(1);
+}
+
+.sticky2 {
+  background-image: url("img/tificer.JPG");
+  height: 75vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+}
+
+.sticky3 {
+  background-image: url("img/friends.JPG");
+  height: 75vh;
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+}
+
+#finale {
+  background-image: url("img/figurine.JPG");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0, 20px;
+}
+.call {
+  font-family: "Girassol", cursive, serif;
+  font-size: 18px;
+  color: rgb(239, 252, 246);
+  border: 2px solid;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.call:hover {
+  background-color: rgb(96, 62, 45);
+  border-color: rgb(239, 252, 246);
+}
+
+#footer {
+  top: 1000px;
+  bottom: 100px;
+  padding: 100px;
+  background-color: #2e5061;
+  border-top: #f4f4f4 3px solid;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
